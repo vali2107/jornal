@@ -1,0 +1,26 @@
+main {
+    margin:0 5vw 5vh 5vw;
+}
+h2 {
+    margin:5vh 0;
+}
+.noticia {
+    display:flex;
+    gap:20px;
+    margin-top:3vh;
+}
+.noticia img {
+    height:auto;
+    width:15vw;
+}
+.titulo {
+    font-weight:bold;
+    color:black;
+    text-decoration: none;
+}
+.tag {
+    display: inline-block;
+    background-color:rgb(216, 216, 216);
+    padding:7px;
+    border-radius:20px;
+}

@@ -1,0 +1,15 @@
+main {
+    margin:0 5vw 5vh 5vw;
+}
+h2 {
+    margin:5vh 0;
+}
+section {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: auto auto;
+    gap: 7.5vw;
+}
+.item p:first-child {
+    font-weight:bold;
+}
