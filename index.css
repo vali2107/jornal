@@ -53,13 +53,11 @@ aside {
 }
 
 
-/* ofertas */
+/* aside - coluna de opinião */
 aside {
     padding:20px;
     display: flex;
-    align-items: center;
     flex-direction:column;
-    justify-content: space-between;
 }
 aside h3 {
     font-size:22px;
@@ -68,4 +66,11 @@ aside img {
     width:15vw;
     height:20vh;
     background-color:aliceblue;
+}
+aside h3 {
+    align-self: center;
+    margin-bottom:20px;
+}
+aside h4 {
+    margin-bottom:10px;
 }
